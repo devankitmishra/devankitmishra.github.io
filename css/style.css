@@ -527,13 +527,13 @@ body{
 .button:hover{
     width:200px;
 }
-.button:nth-child(1):hover .icon{background: #0009b7;}
+.button:nth-child(1):hover .icon{background: #313bf7;}
 .button:nth-child(2):hover .icon{background: #4267B2;}
-.button:nth-child(3):hover .icon{background: #833AB4;}
-.button:nth-child(4):hover .icon{background: #5865F2;}
-.button:nth-child(5):hover .icon{background: #00b3ff;}
+.button:nth-child(3):hover .icon{background: linear-gradient(to bottom, #d300fd, #ff008c,#ff0015,yellow);}
+.button:nth-child(4):hover .icon{background: #7289db;}
+.button:nth-child(5):hover .icon{background: #1DA1F2;}
 .button:nth-child(6):hover .icon{background: #000000;}
-.button:nth-child(7):hover .icon{background: #00bbff;}
+.button:nth-child(7):hover .icon{background: #229ED9;}
 
 .button .icon{
     display:inline-block;
