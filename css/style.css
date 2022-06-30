@@ -193,11 +193,13 @@ section.about .social img{
 }
 section.freelancer{
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/paralax.jpg") repeat fixed 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/paralax.jpg") repeat fixed 100%;
     color: var(--pure);
     font-size:2rem;
-    margin-bottom: 0.5rem;
     text-decoration:overline;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
 }
 
 section.freelancer p{
@@ -210,10 +212,10 @@ body{
 }
 .reviews{
     /* background: linear-gradient(to bottom,var(--secondary), var(--light)); */
-    background-color: var(--pure);
+    background-color: var(--dark);
 }
 .reviews h1{
-    color: var(--dark);
+    color: var(--pure);
     text-align: center;
     margin-bottom: 1rem;
     line-height:0.5;
@@ -223,7 +225,7 @@ body{
 }
 .reviews h1 + p{
     font-family: 'Lato', sans-serif;
-    color: var(--dark);
+    color: var(--pure);
     line-height: 1.9;
     text-align: center;
 }
@@ -247,7 +249,7 @@ body{
 }
 .reviews .slider .slide p{
     font-family: 'Lato', sans-serif;
-    color: var(--secondary);
+    color: var(--light);
     margin-bottom: 1rem;
 }
 .reviews .slider .slide span{
@@ -278,7 +280,7 @@ body{
 }
 
 .works h1{
-    color: var(--secondary);
+    color: var(--light);
     text-align: center;
     margin-bottom: 1rem;
     line-height:0.5;
@@ -288,7 +290,7 @@ body{
 }
 .works h1 + p{
     font-family: 'Lato', sans-serif;
-    color: var(--dark);
+    color: var(--pure);
     line-height: 1.9;
     text-align: center;
     margin-bottom: 7rem;
@@ -297,7 +299,6 @@ body{
     width: 100%;
     margin: 0 auto;
     max-width: 100rem;
-    background: var(--pure);
   }
   
   .cols{
@@ -430,16 +431,13 @@ body{
     text-align: center;
     margin-bottom: 7rem;
 }
-.blog{
-    background: var(--dark);
-}
 .blog .card-wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:1.5rem;
 }
 .blog .card-wrapper .card{
-    background: var(--pure);
+    background: var(--dark);
     transition: 0.5s;
 }
 .blog .card-wrapper .card:hover{
@@ -458,14 +456,14 @@ body{
 .blog .card-wrapper .card .card-content h1{
     font-size:1rem;
     font-weight:600;
-    color: var(--secondary);
+    color: var(--pure);
     transition: all 0.3s ease;
 } 
 .blog .card-wrapper .card .card-content h1:hover{
     color: var(--primary);
 }
 .blog .card-wrapper .card .card-content a{
-    color: var(--secondary);
+    color: var(--pure);
     text-decoration:none;
     transition: all 0.3s ease;
 }
@@ -839,10 +837,6 @@ hr{
     section.services .card-wrapper .card{
         border-radius: 0;
     }
-    .reviews h1+ p{
-        color: var(--dark);
-
-    }
     section.work .card-wrapper{
         grid-template-columns:repeat(2, 1fr);
     }
@@ -954,8 +948,7 @@ hr{
     section.freelancer {
         text-decoration: none;
         text-align: left;
-        background:none;
-
+        font-size: 1.5rem;
     }
     section.freelancer p{
         font-size: 1rem;
@@ -966,9 +959,9 @@ hr{
    .reviews h1 + p{
        margin-bottom: 3rem;
     }
-    .reviews p{
+    /* .reviews p{
         color: var(--pure);
-    }
+    } */
     section.work .card-wrapper{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -980,7 +973,7 @@ hr{
     }
     .social a{
         font-size: 2rem;
-      }
+    }
     footer{
     margin-top: 2rem;
     margin-left: -3rem;
@@ -1009,5 +1002,5 @@ hr{
     }
     hr{
         display:none;
-    }
+    } 
 }
