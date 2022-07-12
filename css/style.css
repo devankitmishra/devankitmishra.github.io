@@ -12,6 +12,7 @@
 body{
     font-family:'Poppins',sans-serif;
     overflow: overlay;
+    cursor: url('../images/y-cursor.svg'), auto;
 }
 
 html{
