@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import 'utilities.css';
 :root{
-    --primary:rgb(255, 187, 0);
+/*     --primary:rgb(255, 187, 0); */
+    --primary:yellow;
     /* --primary:rgb(255, 225, 0); */
     --dark:#000000;
     --pure:#FFFFFF;
