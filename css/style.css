@@ -153,22 +153,28 @@ section.about h1{
     font-size:1.6rem;
     font-weight:400;
     color: var(--pure);
+    text-align: center;
+
 
 }
 section.about h1 span{
     color: var(--primary);
+
 }
 section.about h3{
     font-size: 1rem;
     margin-bottom: 1rem;
     font-weight: 400;
     color: var(--pure);
+    text-align: center;
+
 }
 section.about p{
     font-family: 'Lato', sans-serif;
     color: var(--pure);
     line-height: 1.9;
-    text-align:end;
+    text-align:justify;
+
 }
 .about .container2{
     display:flex;
@@ -580,7 +586,7 @@ body{
 .mobile-nav{
     position: fixed;
     z-index:1001;
-    background: rgba(255, 187, 0, 0.9);
+    background: rgba(255, 255, 0, 0.925);
     transform:translateY(-100%);
     transition: all 0.5s ease;
     text-align: center;
