@@ -958,7 +958,7 @@ hr{
     section.freelancer p{
         font-size: 1rem;
     }
-    section.reviews .slider .slide{
+    section.reviews .slider .slide a{
         padding: 0;
     }
    .reviews h1 + p{
