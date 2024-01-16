@@ -153,6 +153,8 @@ section.about h1{
     font-size:1.6rem;
     font-weight:400;
     color: var(--pure);
+
+
 }
 section.about h1 span{
     color: var(--primary);
@@ -163,7 +165,6 @@ section.about h3{
     margin-bottom: 1rem;
     font-weight: 400;
     color: var(--pure);
-    text-align: center;
 
 }
 section.about p{
@@ -176,7 +177,7 @@ section.about p{
 .about .container2{
     display:flex;
 }
-.skills h2{
+.skills h1{
     color: var(--primary);
     font-size: 1.5rem;
     padding-top: 2rem;
