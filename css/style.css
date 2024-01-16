@@ -153,9 +153,6 @@ section.about h1{
     font-size:1.6rem;
     font-weight:400;
     color: var(--pure);
-    text-align: center;
-
-
 }
 section.about h1 span{
     color: var(--primary);
