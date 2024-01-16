@@ -13,7 +13,7 @@
 body{
     font-family:'Poppins',sans-serif;
     overflow: overlay;
-    cursor: url('../images/w-cursor.svg'), auto;
+/*     cursor: url('../images/w-cursor.svg'), auto; */
 }
 
 html{
